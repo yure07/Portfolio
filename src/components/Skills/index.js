@@ -1,7 +1,7 @@
 import './style.css'
 import { Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap'
 
-import {SiJavascript ,SiReact, SiStyledcomponents} from 'react-icons/si'
+import {SiJavascript ,SiReact, SiStyledcomponents, SiFirebase} from 'react-icons/si'
 import {DiGit} from "react-icons/di"
 import {FaHtml5 ,FaCss3Alt} from 'react-icons/fa'
 
@@ -65,12 +65,12 @@ export default function Skills () {
               </Card>
 
 
-               {/* -- CARD SYLED COMPONENTS -- */}
+               {/* -- CARD FIREBASE -- */}
                <Card>
-              <i><SiStyledcomponents/></i>
+              <i><SiFirebase/></i>
               <CardBody>
               <CardTitle tag="h5">
-                STYLED-COMPONENTS
+                FIREBASE
               </CardTitle>
               </CardBody>
               </Card>
