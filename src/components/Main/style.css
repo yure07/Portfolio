@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+#col-1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+    margin-top: -6%;
+    margin-left: 3%;
+}
+.col h1{
+    font-size: 121px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-bottom: -40px;
+}
+.col p:nth-child(2){
+    font-size: 95px;
+    margin-bottom: 0;
+}
+.col span{
+    color: #3487ff
+}
+.col p:nth-child(3){
+    font-size: 50px;
+}
+
+.col img{
+    max-width: 750px;
+    height: 500px;
+}
+#col-2{
+    width: 700px;
+    margin-top: 5%;
+}
+.contact{
+    width: 250px;
+    height: 45px;
+    font-size: 25px;
+    background: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+.contact:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .row{
+        justify-content: center;
+    }
+    #col-1{
+        margin-left: 0;
+        text-align: center;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .col h1{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .col p:nth-child(2){
+        font-size: 30px;
+    }
+    .col p:nth-child(3){
+        font-size: 20px;
+    }
+    .contact{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        transition: none;
+    }
+    
+    .col img{
+        max-width: 550px;
+        height: 270px;
+    }
+    #col-2{
+        width: 400px;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 1100px) 
+and (height >= 1000px ) { 
+    .row{justify-content: center;}
+    #col-1{
+        margin-top: 6%;
+        margin-left: 3%;
+    }
+    .col h1{
+        font-size: 70px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        margin-bottom: -30px;
+    }
+    .col p:nth-child(2){
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .col p:nth-child(3){
+        font-size: 25px;
+    }
+    .col img{
+        max-width: 370px;
+        height: 320px;
+    }
+    #col-2{
+        width: 370px;
+        margin-top: 10%;
+    }
+    .contact{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+    }
+}

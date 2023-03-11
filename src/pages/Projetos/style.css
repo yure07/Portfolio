@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.projects-container{
+    width: 100%;
+    margin-top: 7%;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #3487ff;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.projects{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+}
+.card-active{
+    width: 600px;
+    background-size: cover;
+    height: 300px;
+    transition: all 0.4s;
+    border-radius: 20px;
+}
+.card-active:hover{
+    box-shadow: 0px 0px 0px 3px rgb(209, 195, 195);
+}
+.card-active span{
+    bottom: 20%;
+    right: 30%;
+    position: relative;
+}
+.card-active span:nth-child(2){
+    color: #3487ff;
+}
+.card-active span:nth-child(3){
+    font-size: 30px;
+    color: #fff;
+}
+.card-active span:nth-child(4){
+    color: #3487ff;
+}
+.img-project{
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    filter: brightness(50%)
+}
+.loja-fulano{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+.loja-fulano:hover{
+    box-shadow: 0px 0px 0px 3px rgb(209, 195, 195);
+}
+.loja-fulano span{
+    bottom: 20%;
+    right: 23%;
+    position: relative;
+}
+.loja-fulano span:nth-child(2){
+    color: #3487ff;
+}
+.loja-fulano span:nth-child(3){
+    font-size: 30px;
+    color: #fff;
+}
+.loja-fulano span:nth-child(4){
+    color: #3487ff;
+}
+.soon{
+    width: 600px;
+    background-color: rgb(209, 195, 195);
+    border-radius: 20px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.soon p{
+    transform: rotate(-25deg);
+    font-size: 45px;
+    color: #a22525;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .projects-container{
+        font-size: 22px;
+        margin-top: 20%;
+    }
+    .projects{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .card-active{
+        width: 90vw;
+        height: 200px;
+    }
+    .card-active span{
+        bottom: 0%;
+        right: 0%;
+    }
+    .card-active span:nth-child(3){
+        font-size: 20px;
+    }
+    .loja-fulano{
+        width: 90vw;
+        height: 200px;
+    }
+    .loja-fulano span{
+        bottom: 0%;
+        right: 0%;
+    }
+    .loja-fulano span:nth-child(3){
+        font-size: 20px;
+    }
+    .img-project{
+        width: 100%;
+        height: auto;
+        filter: none;
+    }
+    .soon{
+        width: 90vw;
+        height: 200px;
+    }
+    .soon p{
+        font-size: 30px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 1100px) 
+and (height >= 1000px ) {
+    .projects-container{
+        font-size: 32px;
+        margin-top: 10%;
+        height: 2600px;
+    }
+    .projects{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 300px;
+    }
+    .card-active{
+        width: 90vw;
+        height: 200px;
+    }
+    .card-active span{
+        bottom: 0%;
+        right: 0%;
+    }
+    .card-active span:nth-child(3){
+        font-size: 20px;
+    }
+    .loja-fulano{
+        width: 90vw;
+        height: 200px;
+    }
+    .loja-fulano span{
+        bottom: 0%;
+        right: 0%;
+    }
+    .loja-fulano span:nth-child(3){
+        font-size: 20px;
+    }
+    .img-project{
+        width: 100%;
+        height: auto;
+        filter: none;
+    }
+    .soon{
+        margin-bottom: -150px;
+        width: 90vw;
+        height: 200px;
+    }
+    .soon p{
+        font-size: 30px;
+    }
+}

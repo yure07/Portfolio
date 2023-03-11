@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+article{
+    width: 100vw; 
+    text-align: center;
+    margin-top: 10%;
+}
+article h2{
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 700;
+    color: #3487ff;
+    margin-bottom: 5%;
+}
+#col-card{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 16rem;
+    height: 18rem;
+    border: 3px solid #3487ff;
+    background: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card-title{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    color: #fff;
+    font-size: 22px;
+    margin-top: -20px;
+}
+i{
+    font-size: 150px;
+    color: #fff;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px){
+    #col-card{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 8.8rem;
+        height: 11rem;
+    }
+    .card-title{
+        font-size: 14px;
+        margin-top: -20px;
+    }
+    i{
+        font-size: 100px;
+        color: #fff;
+    }
+    article{
+        margin-top: 10%;
+    }
+    article h2{
+        margin-bottom: 10%;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 1100px) 
+and (height >= 1000px ) {
+    #col-card{
+        grid-template-columns: auto auto;
+        gap: 60px;
+    }
+}

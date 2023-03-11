@@ -1,0 +1,14 @@
+footer {
+    width: 100vw;
+    height: 110px;
+    background-color: #000;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials-footer{
+    gap: 30px;
+    display: flex;
+    font-size: 30px;
+}
