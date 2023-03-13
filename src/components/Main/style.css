@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+main .main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 #col-1{
     font-family: 'Montserrat';
     font-weight: 700;
     color: #fff;
-    margin-top: -6%;
-    margin-left: 3%;
+    width: 750px;
 }
 .col h1{
     font-size: 121px;
@@ -29,9 +32,8 @@
     height: 500px;
 }
 .collumn-2{
-    border: none;
     width: 700px;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 .info{
     display: flex;

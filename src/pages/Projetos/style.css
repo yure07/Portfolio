@@ -150,9 +150,6 @@ a{
         bottom: 0%;
         right: 0%;
     }
-    .loja-fulano span:nth-child(3){
-        font-size: 20px;
-    }
     .img-project{
         width: 100%;
         height: auto;
@@ -164,6 +161,16 @@ a{
     }
     .soon p{
         font-size: 30px;
+    }
+
+    .links button {
+        color: #fff;
+        background-color: #000000;
+        width: 130px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 15px;
+        border: 1px ridge #3489ffa7;
     }
 }
 

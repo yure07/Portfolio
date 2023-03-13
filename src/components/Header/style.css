@@ -1,20 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .img-logo{
     width: 130px;
-    margin-right: 390px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -400px;
 }
-
+nav{
+    justify-content: center;
+    display: flex;
+}
+.nav-item{
+    width: 140px;
+    text-align: center;
+}
 .socials{
     justify-content: space-between;
     display: flex;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 200px;
     width: 180px;
     font-size: 22px;
-    margin-right: 20px;
 }
 .nav-link{
     color: #fff;
     font-family: 'MontSerrat';
     font-weight: normal;
+    
 }
 .nav-link span{
     color: #3487ff;
@@ -31,9 +43,9 @@
     .me-auto {
         width: 100vw;
         align-items: center;
+        justify-content: center;
         height: 250px;
         gap: 20px;
-        background-color: #000;
     }
     .socials{
         width: 100%;
@@ -43,6 +55,9 @@
     .img-logo{
         margin-right: 0;
         align-items: center;
+    }
+    .nav-link{
+        margin-left: -20px;
     }
     div.collapse.show.navbar-collapse{
         height: 300px;
