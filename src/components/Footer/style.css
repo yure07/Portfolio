@@ -4,11 +4,34 @@ footer {
     background-color: #000;
     margin-top: 6%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+}
+footer p {
+    font-size: 22px;
+    margin-bottom: 0;
 }
 .socials-footer{
     gap: 30px;
     display: flex;
     font-size: 30px;
 }
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    footer{
+        flex-direction: column;
+    }
+    footer p{
+        margin-bottom: 10px;
+    }
+  .socials-footer{
+    font-size: 25px;
+    }
+}
+

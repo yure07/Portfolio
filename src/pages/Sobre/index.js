@@ -2,6 +2,8 @@ import './style.css'
 import image from '../../assests/images/yure.png'
 import Header from '../../components/Header/index'
 import Footer from '../../components/Footer'
+
+import {SiGooglemaps} from 'react-icons/si'
 import { Container, Row, Col } from 'reactstrap'
 
 export default function Sobre () {
@@ -13,8 +15,9 @@ export default function Sobre () {
             <Row xs="2">
             <Col id='container-col'>
             <h3>Yure <span>Rafael</span></h3>
+            <h4> <SiGooglemaps/> Cafarnaum - Bahia</h4>
             <Col id='image-mobile'><img src={image} alt='cover'/></Col>
-            <p>Nasci em Cafarnaum-Ba, e desde cedo fui fascinado pelo universo digital, 
+            <p>Desde cedo fui fascinado pelo universo digital, 
                    de saber como que funciona a estrutura de uma interface.
                    Decidi que iria me dedicar a aprender programação para construir sites e aplicações web, e foi isso que fiz. 
                    <p>Assim, me encontrei no Front-End, usando principalmente o

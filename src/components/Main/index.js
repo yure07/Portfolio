@@ -1,6 +1,10 @@
-import { Col, Row } from 'reactstrap'
 import './style.css'
 import pc from '../../assests/images/pc-custom.png'
+import curriculo from '../../assests/curriculo.pdf'
+
+import { IoLogoWhatsapp } from 'react-icons/io'
+import { FaDownload } from 'react-icons/fa'
+import { Col, Row } from 'reactstrap'
 
 export default function Main() {
     return(
@@ -10,12 +14,19 @@ export default function Main() {
                 <h1>Olá!</h1>
                 <p>Eu Sou o <span>Yure</span></p>
                 <p>Desenvolvedor Front-End</p>
-                <a target='_blank' href='https://api.whatsapp.com/send?phone=5574988594216'>
-                    <button className='contact'>Contatar</button>
-                </a>
+
+                <div className='info'>
+                    <a target='_blank' href='https://api.whatsapp.com/send?phone=5574988594216' className='contact'>
+                        <IoLogoWhatsapp/> Contatar
+                    </a>
+
+                    <a download='curriculo.pdf' href={curriculo} className='contact'>
+                        <FaDownload/> Baixar CV
+                    </a>  
+                </div>        
             </Col>
 
-            <Col id='col-2'>
+            <Col className='collumn-2'>
                 <img src={pc} alt='1'/>
             </Col>
         </Row>
