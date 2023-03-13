@@ -65,6 +65,11 @@ main .main {
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
+    main .main {
+        justify-content: initial;
+        align-items: initial;
+        display: initial;
+    }
     .row{
         justify-content: center;
     }
@@ -100,7 +105,7 @@ main .main {
         max-width: 550px;
         height: 270px;
     }
-    #col-2{
+    .collumn-2{
         width: 400px;
         margin-top: 10%;
         display: flex;
@@ -133,7 +138,7 @@ and (height >= 1000px ) {
         max-width: 370px;
         height: 320px;
     }
-    #col-2{
+    .collumn-2{
         width: 370px;
         margin-top: 10%;
     }
