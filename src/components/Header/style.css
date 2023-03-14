@@ -70,25 +70,65 @@ nav{
 }
 
 /* -- TABLETS -- */
-@media (width <= 1100px) 
-and (height >= 1000px ) {
+@media (min-width : 768px) and (max-width : 1023px) {
+    nav{
+        height: 5vh;
+    }
     .navbar-header{
         background-color: #000;
+        width: 100vw;
     }
     .me-auto {
         width: 100vw;
         align-items: center;
-        height: 250px;
+        height: 28vh;
         gap: 20px;
-        background-color: #000;
+        background-color: #000000;
     }
     .img-logo{
         width: 130px;
-        margin-right: 120px;
+        margin:0;
     }
     .socials{
-        width: 100%;
+        width: 100vw;
         justify-content: center;
         gap: 30px;
-    }    
+        margin-left: 0;
+        position: relative;
+        margin-top: -60px;
+    }  
+}  
+    
+    /* -- DESKTOPS */
+    @media (min-width : 1024px) and (max-width : 1200px) {
+        .navbar-header{
+            width: 100vw;
+            margin-top: -10px;
+        }
+        .me-auto {
+            width: 100vw;
+            align-items: center;
+            height: 7vh;
+            background-color: #000000;
+        }
+        .nav-item{
+            width: 160px;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-link{
+            font-size: 15px;
+        }
+        .img-logo{
+            width: 130px;
+            margin:0;
+            position: relative;
+        }
+        .socials{
+            justify-content: center;
+            gap: 20px;
+            margin-left: -360px;
+            position: relative;
+            margin-top: -10px;
+        }
 }

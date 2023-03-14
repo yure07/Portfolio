@@ -63,8 +63,7 @@ main .main {
 }
 
 /* MEDIA QUERIES */ 
-/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
-@media (width <= 420px) and (height < 920px) {
+@media (width <= 992px) {
     main .main {
         justify-content: initial;
         align-items: initial;
@@ -114,21 +113,24 @@ main .main {
 }
 
 /* -- TABLETS -- */
-@media (width <= 1100px) 
-and (height >= 1000px ) { 
-    .row{justify-content: center;}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .row{
+        justify-content: center;
+    }
     #col-1{
-        margin-top: 6%;
-        margin-left: 3%;
+        margin-top: 3%;
+        justify-content: start;
+        align-items: start;
+        width: 50vw;
     }
     .col h1{
         font-size: 70px;
         font-family: 'Montserrat';
         font-weight: 700;
-        margin-bottom: -30px;
+        margin-bottom: -20px;
     }
     .col p:nth-child(2){
-        font-size: 50px;
+        font-size: 45px;
         margin-bottom: 0;
     }
     .col p:nth-child(3){
@@ -143,8 +145,47 @@ and (height >= 1000px ) {
         margin-top: 10%;
     }
     .contact{
-        width: 200px;
+        width: 150px;
         height: 40px;
-        font-size: 20px;
+        font-size: 17px;
     }
 }
+
+/* -- DESKTOPS */
+@media (min-width : 1024px) and (max-width : 1200px) {
+    .row{
+        justify-content: center;
+    }
+    #col-1{
+        margin-top: 0;
+        justify-content: start;
+        align-items: start;
+        width: 50vw;
+    }
+    .col h1{
+        font-size: 80px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        margin-bottom: -20px;
+    }
+    .col p:nth-child(2){
+        font-size: 55px;
+        margin-bottom: 0;
+    }
+    .col p:nth-child(3){
+        font-size: 30px;
+    }
+    .col img{
+        max-width: 390px;
+        height: 340px;
+    }
+    .collumn-2{
+        width: 410px;
+        margin-top: 10%;
+    }
+    .contact{
+        width: 180px;
+        height: 40px;
+        font-size: 18px;
+    }
+    }

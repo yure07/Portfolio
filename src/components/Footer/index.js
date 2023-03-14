@@ -19,6 +19,7 @@ export default function Footer () {
             <Link to='https://wa.link/eeecik' target='_blank'><BsWhatsapp/></Link>
     
          </div>
+         <p>Design By <a href='https://vstectity.com/' target='_blank'>Vstectity</a></p>
         </footer>
     )
 }
