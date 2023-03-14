@@ -1,5 +1,5 @@
 import './style.css'
-import pc from '../../assests/images/pc-custom.png'
+import pc from '../../assests/images/pc-custom.webp'
 import curriculo from '../../assests/curriculo.pdf'
 
 import { IoLogoWhatsapp } from 'react-icons/io'

@@ -1,5 +1,5 @@
 import './style.css'
-import image from '../../assests/images/yure.png'
+import image from '../../assests/images/yure.webp'
 import Header from '../../components/Header/index'
 import Footer from '../../components/Footer'
 
