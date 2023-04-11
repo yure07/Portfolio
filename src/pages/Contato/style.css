@@ -112,8 +112,7 @@ input{
 }
 
 /* -- TABLETS -- */
-@media (width <= 1100px) 
-and (height >= 1000px ) {
+@media screen and (min-width: 668px) and (max-width: 1024px) {
     .container-center{
         width: 90vw;
         height: 1500px;
@@ -139,7 +138,7 @@ and (height >= 1000px ) {
     .mail-sent{
         width: 580px;
         height: 580px;
-        margin-left: 20%;
+        margin-left: 0;
         margin-top: 25%;
     }
     h1{
