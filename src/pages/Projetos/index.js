@@ -6,6 +6,7 @@ import Footer from '../../components/Footer/index'
 import PrimeFlix from '../../assests/images/prime-flix.png'
 import LojaDoFulano from '../../assests/images/loja-do-fulano.jpeg'
 import CRUD from '../../assests/images/to-do-list.jpeg'
+import FormigaLanches from '../../assests/images/FORMIGA-LANCHES.jpg'
 
 import { BsLink45Deg, BsGithub } from 'react-icons/bs'
 
@@ -17,27 +18,26 @@ export default function Projetos () {
                 <span>Projetos</span>
                 <div className='projects'>
 
-             
                 <div className='card-active'>
-                    <img src={PrimeFlix} alt='1' className='img-project'/>
-                    <span>Prime Flix</span>
-                    <span>Tecnologias: React, JSX e CSS</span>
+                    <img src={FormigaLanches} alt='3' className='img-project'/>
+                    <span>Landing Page</span>
+                    <span>Tecnologias: React, Javascript, CSS</span>
+
                     <div className='links'>
                         <button>
-                            <Link to='https://react-listagem.netlify.app/' target='_blank'> 
+                            <Link to='https://formigalanches.netlify.app/' target='_blank'> 
                             <BsLink45Deg/> Site 
                             </Link> 
                         </button>
 
                         <button>
-                            <Link to='https://github.com/yure07/prime-flix' target='_blank'>
+                            <Link to='https://github.com/yure07/FormigaLanches' target='_blank'>
                             <BsGithub/> Github
                             </Link>
-                        </button>    
+                        </button>
                     </div>
                 </div>
            
-
                 <div className='loja-fulano'>
                     <img src={LojaDoFulano} alt='2' className='img-project'/>
                     <span>Loja do Fulano</span>
@@ -58,7 +58,6 @@ export default function Projetos () {
                     </div>
                 </div>
 
-            <Link to='https://crud-to-do-portfolio.netlify.app/' target='_blank'>
                 <div className='card-active'>
                     <img src={CRUD} alt='3' className='img-project'/>
                     <span>CRUD</span>
@@ -78,10 +77,24 @@ export default function Projetos () {
                         </button>
                     </div>
                 </div>
-            </Link>
 
-                <div className='soon'>
-                    <p>EM BREVE!</p>
+                <div className='card-active'>
+                    <img src={PrimeFlix} alt='1' className='img-project'/>
+                    <span>Prime Flix</span>
+                    <span>Tecnologias: React, JSX e CSS</span>
+                    <div className='links'>
+                        <button>
+                            <Link to='https://react-listagem.netlify.app/' target='_blank'> 
+                            <BsLink45Deg/> Site 
+                            </Link> 
+                        </button>
+
+                        <button>
+                            <Link to='https://github.com/yure07/prime-flix' target='_blank'>
+                            <BsGithub/> Github
+                            </Link>
+                        </button>    
+                    </div>
                 </div>
 
                 <div className='soon'>
