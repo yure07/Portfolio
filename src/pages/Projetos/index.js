@@ -7,6 +7,7 @@ import PrimeFlix from '../../assests/images/prime-flix.png'
 import LojaDoFulano from '../../assests/images/loja-do-fulano.jpeg'
 import CRUD from '../../assests/images/to-do-list.jpeg'
 import FormigaLanches from '../../assests/images/FORMIGA-LANCHES.jpg'
+import DelPlata from '../../assests/images/desktop-delplata.jpeg'
 
 import { BsLink45Deg, BsGithub } from 'react-icons/bs'
 
@@ -52,6 +53,26 @@ export default function Projetos () {
 
                         <button>
                             <Link to='https://github.com/yure07/LojaFulano' target='_blank'>
+                            <BsGithub/> Github
+                            </Link>
+                        </button>
+                    </div>
+                </div>
+
+                <div className='card-active'>
+                    <img src={DelPlata} alt='3' className='img-project'/>
+                    <span>DelPlata</span>
+                    <span>Tecnologias: React, JSX, CSS e Javascript</span>
+
+                    <div className='links'>
+                        <button>
+                            <Link to='https://delplata.store/' target='_blank'> 
+                            <BsLink45Deg/> Site 
+                            </Link> 
+                        </button>
+
+                        <button>
+                            <Link to='https://github.com/yure07/DelPlata' target='_blank'>
                             <BsGithub/> Github
                             </Link>
                         </button>

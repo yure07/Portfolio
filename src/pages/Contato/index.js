@@ -31,7 +31,7 @@ export default function Contato () {
         console.log('SUA MENSAGEM FOI ENVIADA');
     })
     .catch((error)=>{
-        console.log("ERRO" + error)   
+        console.log("ERRO: " + error)   
     })
     } 
 }
