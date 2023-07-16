@@ -1,9 +1,9 @@
 import './style.css'
 import { Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap'
 
-import {SiJavascript ,SiReact, SiStyledcomponents, SiFirebase} from 'react-icons/si'
+import {SiJavascript, SiReact, SiFirebase, SiSass} from 'react-icons/si'
 import {DiGit} from "react-icons/di"
-import {FaHtml5 ,FaCss3Alt} from 'react-icons/fa'
+import {FaHtml5} from 'react-icons/fa'
 
 export default function Skills () {
     return(
@@ -23,12 +23,12 @@ export default function Skills () {
               </CardBody>
               </Card>
 
-              {/* -- CARD CSS -- */}
+              {/* -- CARD SASS -- */}
               <Card>
-              <i><FaCss3Alt/></i>
+              <i><SiSass/></i>
               <CardBody>
               <CardTitle tag="h5">
-                CSS3
+                SASS
               </CardTitle>
               </CardBody>
               </Card>
