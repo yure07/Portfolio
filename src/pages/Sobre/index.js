@@ -15,7 +15,7 @@ export default function Sobre () {
             <Row xs="2">
             <Col id='container-col'>
             <h3>Yure <span>Rafael</span></h3>
-            <h4> <SiGooglemaps/> Cafarnaum - Bahia</h4>
+            <h4> <SiGooglemaps/> Irecê - Bahia</h4>
             <Col id='image-mobile'><img src={image} alt='cover'/></Col>
             <p>Desde cedo fui fascinado pelo universo digital, 
                    de saber como que funciona a estrutura de uma interface.
