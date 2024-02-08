@@ -74,7 +74,6 @@ export default function Header () {
 
           <NavbarText>
           <div className='socials'>
-            <Link to='https://www.instagram.com/_yurerafael/' target='_blank'><BsInstagram/></Link>
             <Link to='https://github.com/yure07' target='_blank'><BsGithub/></Link>
             <Link to='https://www.linkedin.com/in/yure-rafael/' target='_blank'><BsLinkedin/></Link>
             <Link to='mailto:rafaelyure53@gmail.com' target='_blank'><MdOutlineEmail/></Link>
