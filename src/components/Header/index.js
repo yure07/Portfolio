@@ -14,8 +14,7 @@ import {
   NavbarText,
 } from 'reactstrap';
 
-                /* --   ICONS -- */
-import {BsInstagram, BsGithub, BsLinkedin, BsWhatsapp} from 'react-icons/bs'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import {MdOutlineEmail} from 'react-icons/md'
 
 export default function Header () {
@@ -30,7 +29,6 @@ export default function Header () {
 
         {/* -- LOGO -- */}
         <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
-
 
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -70,14 +68,11 @@ export default function Header () {
 
           </Nav>
 
-
-
           <NavbarText>
           <div className='socials'>
             <Link to='https://github.com/yure07' target='_blank'><BsGithub/></Link>
             <Link to='https://www.linkedin.com/in/yure-rafael/' target='_blank'><BsLinkedin/></Link>
             <Link to='mailto:rafaelyure53@gmail.com' target='_blank'><MdOutlineEmail/></Link>
-            <Link to='https://wa.link/eeecik' target='_blank'><BsWhatsapp/></Link>
          </div>
           </NavbarText>
         </Collapse>
