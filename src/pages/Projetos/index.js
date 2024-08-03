@@ -6,7 +6,6 @@ import Footer from '../../components/Footer/index'
 import FormigaLanches from '../../assests/images/FORMIGA-LANCHES.jpg'
 import LojaDoFulano from '../../assests/images/loja-do-fulano.jpeg'
 import DelPlata from '../../assests/images/desktop-delplata.jpeg'
-import Instagram from '../../assests/images/instagram-clone.png'
 import CRUD from '../../assests/images/to-do-list.jpeg'
 import PrimeFlix from '../../assests/images/prime-flix.png'
 
@@ -81,26 +80,6 @@ export default function Projetos () {
                 </div>
 
                 <div className='card-active'>
-                    <img src={Instagram} alt='instagram-img' className='img-project'/>
-                    <span>Instagram Clone</span>
-                    <span>Tecnologias: React Js e SASS</span>
-
-                    <div className='links'>
-                        <button>
-                            <Link to='https://clone-instagram1.netlify.app/' target='_blank'> 
-                            <BsLink45Deg/> Site 
-                            </Link> 
-                        </button>
-
-                        <button>
-                            <Link to='https://github.com/yure07/instagram-clone' target='_blank'>
-                            <BsGithub/> Github
-                            </Link>
-                        </button>
-                    </div>
-                </div>
-
-                <div className='card-active'>
                     <img src={CRUD} alt='crud-img' className='img-project'/>
                     <span>CRUD</span>
                     <span>Tecnologias: React, JSX, CSS e Firebase</span>
@@ -137,10 +116,6 @@ export default function Projetos () {
                             </Link>
                         </button>    
                     </div>
-                </div>
-
-                <div className='soon'>
-                    <p>EM BREVE!</p>
                 </div>
 
                 <div className='soon'>

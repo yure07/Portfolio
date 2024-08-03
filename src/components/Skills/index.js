@@ -1,9 +1,8 @@
 import './style.css'
-import { Container, Row, Col, Card, CardBody, CardTitle} from 'reactstrap'
+import { Container, Row, Col, Card, CardBody, CardTitle } from 'reactstrap'
 
-import {SiJavascript, SiReact, SiFirebase, SiSass, SiTypescript} from 'react-icons/si'
-import {DiGit} from "react-icons/di"
-import {FaHtml5} from 'react-icons/fa'
+import { SiReact, SiFirebase, SiTypescript, SiTailwindcss, SiFigma } from 'react-icons/si'
+import { DiGit } from "react-icons/di"
 
 export default function Skills () {
     return(
@@ -12,36 +11,6 @@ export default function Skills () {
           <Container>
             <Row>
               <Col id='col-card'>
-
-              {/* -- CARD HTML -- */}
-              <Card>
-                <i><FaHtml5/></i>
-                <CardBody>
-                <CardTitle tag="h5">
-                  HTML5
-                </CardTitle>
-                </CardBody>
-              </Card>
-
-              {/* -- CARD SASS -- */}
-              <Card>
-                <i><SiSass/></i>
-                <CardBody>
-                <CardTitle tag="h5">
-                  SASS
-                </CardTitle>
-                </CardBody>
-              </Card>
-
-              {/* -- CARD JAVASCRIPT -- */}
-              <Card>
-                <i><SiJavascript/></i>
-                <CardBody>
-                <CardTitle tag="h5">
-                  JAVASCRIPT
-                </CardTitle>
-                </CardBody>
-              </Card>
 
               {/* -- CARD TYPESCRIPT -- */}
               <Card>
@@ -64,6 +33,16 @@ export default function Skills () {
                 </CardBody>
               </Card>
 
+              {/* -- CARD TAILWIND -- */}
+              <Card>
+                <i> <SiTailwindcss/> </i>
+                <CardBody>
+                <CardTitle tag="h5">
+                  TAILWIND
+                </CardTitle>
+                </CardBody>
+              </Card>
+
               {/* -- CARD FIREBASE -- */}
               <Card>
                 <i><SiFirebase/></i>
@@ -80,6 +59,16 @@ export default function Skills () {
                 <CardBody>
                 <CardTitle tag="h5">
                   GIT
+                </CardTitle>
+                </CardBody>
+              </Card>
+
+              {/* -- CARD FIGMA -- */}
+              <Card>
+                <i><SiFigma/></i>
+                <CardBody>
+                <CardTitle tag="h5">
+                  FIGMA
                 </CardTitle>
                 </CardBody>
               </Card>
